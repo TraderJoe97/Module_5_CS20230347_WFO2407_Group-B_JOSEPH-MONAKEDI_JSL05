@@ -51,6 +51,7 @@ function generatePlaylist(guardians, songs) {
 
         //add playlist items to guardian playlist div
         const tracks = document.createElement("ul")
+        tracks.style.listStyle = "none"
         playlist.forEach(song => {
             const listItem = document.createElement("li")
             listItem.classList.add("song")
