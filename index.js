@@ -11,7 +11,11 @@ const songs = [
     { title: "Come and Get Your Love", artist: "Redbone", genre: "Rock" },
     { title: "I'm Not in Love", artist: "10cc", genre: "Pop" },
     { title: "Fooled Around and Fell in Love", artist: "Elvin Bishop", genre: "Rock" },
-    // Feel free to add even more songs
+    { title: "I am Groot", artist: "Groot", genre: "Groot"},
+    { title: "The Chain", artist: "Fleetwood Mac", genre: "Rock" },
+    { title: "Surrender", artist: "Cheap Trick", genre: "Rock" },  
+    { title: "Brandy (You're a Fine Girl)", artist: "Looking Glass", genre: "Pop" },
+    { title: "Mr. Blue Sky", artist: "Electric Light Orchestra", genre: "Rock" }
 ];
 
 
@@ -19,6 +23,10 @@ const songs = [
 const guardians = {
     "Star-Lord": "Rock",
     "Gamora": "Pop",
+    "Drax": "R&B",
+    "Rocket": "Rock",
+    "Groot": "Groot"
+
     // Add preferences for Drax, Rocket, and Groot
 };
 
